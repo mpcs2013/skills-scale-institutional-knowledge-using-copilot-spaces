@@ -27,7 +27,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: _(list each role and named individual; at minimum consider: Project Manager, Product Manager, Lead Developer, QA Lead, UX/UI Designer, DevOps Engineer, Business Analyst, Security Champion, Customer Success Manager — see [Roles & Personas](./octoacme-roles-and-personas.md) and the [RACI](./octoacme-roles-and-responsibilities-raci.md) for guidance on which roles are needed for this project)_
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
@@ -41,3 +41,18 @@ Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+
+## Role Guidance
+Ensure the following roles are confirmed or explicitly waived before moving to planning. Refer to [Roles & Personas](./octoacme-roles-and-personas.md) for full descriptions and [Roles & Responsibilities RACI](./octoacme-roles-and-responsibilities-raci.md) for ownership of initiation activities.
+
+| Role | Required by Default? | Notes |
+|------|:-------------------:|-------|
+| Project Manager | Yes | DRI for schedule, risk, and communications |
+| Product Manager | Yes | DRI for scope and business outcomes |
+| Lead Developer | Yes | Technical feasibility and estimation |
+| QA Lead | Recommended | Early test strategy and DoD input |
+| UX/UI Designer | If user-facing | Design artifacts needed before development begins |
+| DevOps Engineer | Recommended | CI/CD and environment setup lead time |
+| Business Analyst | If complex requirements | Requirements elicitation and UAT coordination |
+| Security Champion | Recommended | Early security requirements and threat modelling |
+| Customer Success Manager | If customer-impacting | Rollout communication and customer feedback loops |
